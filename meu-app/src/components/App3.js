@@ -4,9 +4,9 @@ class App3 extends React.Component {
     constructor(props) {
         super(props)
         this.state = { nome : '' }
-        this.changeName = this.changeName.bind(this)
+        
     }
-    changeName = function(event){
+    changeName = (event) => {
         this.setState({nome: event.target.value})
     }
 
