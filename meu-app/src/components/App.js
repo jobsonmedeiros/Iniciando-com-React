@@ -1,17 +1,21 @@
 import React from 'react';
 
-class App extends React.Component{
+class App extends React.Component {
 
-    render(){
+    render() {
         return (
-          <>
-            <p>Meu primeiro parágrafo em React.</p>
-            <p>Meu segundo parágrafo em React.</p>
-            <div>
-              <pre>Cansei de parágrafos...</pre>
-            </div>
-            <p>{ new Date().toLocaleDateString("pt-BR") }</p>
-          </>
+            <>
+                
+                <p>{new Date().toLocaleDateString("pt-BR")}</p>
+                <h1>Componente 1</h1>
+                <p>Meu primeiro parágrafo em React.</p>
+                <p>Meu segundo parágrafo.</p>
+                <pre>Cansei de parágrafos...</pre>
+                <div>
+
+                </div>
+
+            </>
         );
     }
 }
